@@ -16,7 +16,7 @@ contract Token is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("Titanium", "TNM", 5) {
-        _mint(msg.sender, 21000000 * (10 ** uint256(decimals())));
+    constructor () public ERC20Detailed("Titanium2", "TNM2", 5) {
+        _mint(msg.sender, 47867000 * (10 ** uint256(decimals())));
     }
 }
